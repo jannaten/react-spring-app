@@ -1,18 +1,18 @@
 package com.springrest.springrest.entities;
 
-public class Courses {
+public class Course {
 	private long id;
 	private String title;
 	private String description;
 	
-	public Courses(long id, String title, String description) {
+	public Course(long id, String title, String description) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
 	}
 
-	public Courses() {
+	public Course() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

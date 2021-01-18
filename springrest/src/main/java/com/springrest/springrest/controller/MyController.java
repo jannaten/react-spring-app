@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springrest.springrest.entities.Courses;
+import com.springrest.springrest.entities.Course;
 
 @RestController
 public class MyController {
@@ -13,7 +13,7 @@ public class MyController {
 	//get the courses
 	
 	@GetMapping("/courses")
-	public List<Courses> getCourses() {
+	public List<Course> getCourses() {
 		
 	}
 	
