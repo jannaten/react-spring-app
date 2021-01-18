@@ -23,5 +23,17 @@ public class CourseServiceImpl implements CourseService {
 		// TODO Auto-generated method stub
 		return list;
 	}
+	@Override
+	public Course getCourse(long courseId) {
+		// TODO Auto-generated method stub
+		Course c=null;
+		for(Course course:list) {
+			if(course.getId() == courseId) {
+				c=course;
+				break;
+			}
+		}
+		return c;
+	}
 
 }
