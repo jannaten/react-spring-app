@@ -1,6 +1,12 @@
 package com.springrest.springrest.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Course {
+	
+	@Id
 	private long id;
 	private String title;
 	private String description;
@@ -14,7 +20,6 @@ public class Course {
 
 	public Course() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public long getId() {
